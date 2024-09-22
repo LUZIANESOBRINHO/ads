@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Placement</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      height: 100vh;
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    .item {
+      font-size: 5rem;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: blueviolet;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h1{
+        text-align: center;
+    }
+    
+  </style>
+</head>
+
+<body>
+    <h1>Pets</h1>
+    <h2>By Luziane Sobrinho</h2>
+  <div class="container">
+    <div class="item cat">🐈</div>
+    <div class="item luck">🍀</div>
+    <div class="item dog">🐕</div>
+  </div>
+  
+</body>
+
+</html>

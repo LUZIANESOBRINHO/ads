@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1h, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: deeppink;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:visited{
+           color: blueviolet; 
+        }
+        a:hover{
+            color: rgb(233, 162, 233);
+            text-decoration: underline;
+        }
+        a:active{
+            color: maroon;
+        }
+        .especial{
+            background-color: lightcoral;
+        }
+        .especial::before{
+            content: '←';
+
+        }
+
+        .especial::after{
+            content:'→';
+          
+        }
+        img{
+            display: inline;
+            width:80% ;
+            height:80% ;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customizing links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/luziane_sobrini_/?hl=pt_BR" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/notifications/?filter=all" class="especial">Linkedin</a></li>
+        <img src="midia/istockphoto-1148460539-1024x1024.jpg" alt="">
+        
+    </ul>
+</body>
+</html>
